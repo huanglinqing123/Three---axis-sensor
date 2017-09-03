@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Regeister" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/head"
+            android:gravity="center_horizontal"
+            android:text="用户注册"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:drawableLeft="@drawable/user"
+            android:hint="请输入您的用户名" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:drawableLeft="@drawable/password"
+            android:hint="请输入您的密码" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/pass2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:drawableLeft="@drawable/password"
+            android:hint="请再次输入您的密码" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:drawableLeft="@drawable/phone"
+            android:hint="请输入您的亲情号码" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" >
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/head"
+            android:onClick="zhuce"
+            android:text="注册" >
+        </Button>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" >
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/head"
+            android:onClick="back"
+            android:text="取消" >
+        </Button>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

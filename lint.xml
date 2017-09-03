@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/example/oldlady/Jiaoshizhanghu.java" />
+        <ignore path="src/com/example/oldlady/Login.java" />
+        <ignore path="src/com/example/oldlady/Myzhanghu.java" />
+        <ignore path="src/com/example/oldlady/Regeister.java" />
+    </issue>
+</lint>
